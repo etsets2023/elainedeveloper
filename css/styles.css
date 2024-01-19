@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-background:rgba(109,35,0,255);
+    --color-white:rgb(255, 255, 255);
+}
+
+body{
+    background-color: var(--color-background);
+   
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+}
+
+
+h1{
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-size: 150px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#apresentacao{
+    /*border: 1px solid black;*/
+    width: 100%;
+    padding:50px;
+    background-image: url(../assets/pergaminho-removebg-preview.png);
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.apresentacao-container{
+    /*border: 1px solid white;*/
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;   
+    word-wrap: break-word;
+    margin-top: 50px;
+}
+
+.apresentacao-nome{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.apresentacao-paragrafo{
+    /*border: 1px solid red;*/
+    text-align: justify;
+    line-height: 50px;
+    text-indent: 2em;
+}
+
+#apresentacao button {
+    padding: 20px;
+    background-color: rgba(49,1,0,255);
+    border-radius: 8px;
+    border: none;
+    width: 30%;
+    align-self: center;
+    margin-top: 50px;
+}
+
+#apresentacao button a{
+    text-decoration: none;
+    color: rgba(234,190,125,255);
+    font-size: 24px;
+}
+
+#tecnologias{
+    /*border: 1px solid black;*/
+    width: 100%; 
+    background-image: url(../assets/pergaminho-removebg-preview.png);
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.tecnologias-container{
+    /*border: 1px solid white;*/
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 60px;   
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    text-decoration: none;
+    border: 1px solid rgba(234,190,125,255);
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 16px 0 16px 0; 
+}
+
+li:hover{
+    background-color:rgba(234,190,125,255);
+    color: rgba(49,1,0,255);
+    transition: all .2s ease;
+}
+
+#tecnologias-html, #tecnologias-css, #tecnologias-js, #tecnologias-react{
+    display: none;
+}
+
+#tecnologias h2, #projetos h2, #contatos h2{
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-size: 150px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.tecnologias-coluna-um, .tecnologias-coluna-dois, .tecnologias-coluna-tres, .tecnologias-coluna-quatro{
+    width: 45%;
+    background-color: rgba(49,1,0,255);
+    padding: 30px;
+    color: rgba(234,190,125,255);
+    border: 20px solid black;
+    border-radius: 8px;
+}
+
+.tecnologias-coluna-quatro{
+    /*margin-top: -294px;*/
+}
+
+.tecnologias-container img{
+    width: 60px;
+}
+
+.coluna-um-icone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+    border: 1px solid rgba(234,190,125,255);
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.coluna-um-icone:hover{
+    border-radius: 0;
+    transition: all .2s ease-in;   
+}
+
+h3{
+    font-size: 50px;
+}
+
+#projetos{
+    border: 1px solid black;
+    width: 100%; 
+    padding: 50px;
+    background-image: url(../assets/pergaminho-removebg-preview.png);
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.projetos-container{
+    /*border: 1px solid white;*/
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;   
+    flex-wrap: wrap;
+    margin-top: 50px;
+  
+   
+}
+
+.projeto-card{
+    border: 1px solid rgba(49,1,0,255);
+    box-shadow: 5px 5px 5px rgba(49,1,0,255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 30%;
+    height: 350px;
+    gap: 30px;
+    background-image: linear-gradient(0deg, rgba(49,1,0,255), rgba(221,162,94,255)); 
+}
+
+#projetos img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+
+.projeto-card h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.projeto-card button {
+    padding: 20px;
+    background-color: rgba(49,1,0,255);
+    border-radius: 8px;
+    border: none;
+}
+
+.projeto-card button:hover {
+    background-color: rgba(234,190,125,255);
+    border: 1px solid  rgba(49,1,0,255);
+    transition: all .2s ease;
+}
+
+.projeto-card button a{
+    text-decoration: none;
+    color: rgba(234,190,125,255);
+    font-size: 20px;
+}
+
+.projeto-card button a:hover{
+    text-decoration: none;
+    color: rgba(49,1,0,255);
+}
+
+#contatos{
+    border: 1px solid black;
+    width: 100%; 
+    padding: 50px;
+    padding-bottom: 50px;
+    background-image: url(../assets/pergaminho-removebg-preview.png);
+    background-size: cover;
+}
+
+.contatos-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 0px 100px;
+    gap: 20px;
+    /*border: 1px solid black;*/
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+}
+
+.redes img{
+    width: 50px;
+}
