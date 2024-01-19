@@ -168,7 +168,7 @@ h3{
 }
 
 #projetos{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     width: 100%; 
     padding: 50px;
     background-image: url(../assets/pergaminho-removebg-preview.png);
@@ -192,7 +192,6 @@ h3{
 }
 
 .projeto-card{
-    border: 1px solid rgba(49,1,0,255);
     box-shadow: 5px 5px 5px rgba(49,1,0,255);
     display: flex;
     flex-direction: column;
@@ -203,6 +202,7 @@ h3{
     height: 350px;
     gap: 30px;
     background-image: linear-gradient(0deg, rgba(49,1,0,255), rgba(221,162,94,255)); 
+    border: none;
 }
 
 #projetos img{
@@ -241,7 +241,7 @@ h3{
 }
 
 #contatos{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     width: 100%; 
     padding: 50px;
     padding-bottom: 50px;
@@ -271,4 +271,71 @@ h3{
 
 .redes img{
     width: 50px;
+}
+
+
+/****************Media Queries*******************/
+
+@media screen and (max-width: 992px) {  /*TABLET*/
+    body{
+        font-size: 18px;
+    }
+
+
+    h1{
+        font-size: 80px;  
+    }
+
+    .apresentacao-paragrafo{
+        line-height: 30px;
+    } 
+
+    #apresentacao button {
+        padding: 15px; 
+    }
+
+    #apresentacao button a{
+        font-size: 14px;
+    }
+
+    #tecnologias h2, #projetos h2, #contatos h2{
+        font-size: 100px;
+    }
+
+    .tecnologias-container{  
+        width: 100%;  
+        gap: 10px;
+    }
+
+    .tecnologias-coluna-um, .tecnologias-coluna-dois, .tecnologias-coluna-tres, .tecnologias-coluna-quatro{
+        width: 80%;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+    .projetos-container{
+        width: 100%;
+        flex-direction: column;  
+    }
+    
+    .projeto-card{
+        flex-direction: column;
+        width: 80%;  
+    }
+  
+   
+    
+    .contatos-container{
+        align-items: center;
+        padding: 0;    
+    }
+
+
+}
+ 
+ @media screen and (min-width: 993px) {  /*DESKTOP*/
+ 
+
 }
