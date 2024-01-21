@@ -256,7 +256,7 @@ h3{
     gap: 20px;
     /*border: 1px solid black;*/
     margin: auto;
-    margin-top: 50px;
+    margin-top: 0px;
     
 }
 
@@ -276,6 +276,7 @@ h3{
     /*border: 4px solid black;*/
     display: flex;
     flex-direction: row;
+    align-items: start;
 }
 
 .formulario{
@@ -369,6 +370,10 @@ form{
     box-shadow: 5px 5px 5px rgba(55,26,16,255); 
 }
 
+h3{
+    font-family: "Ephesis", cursive;
+   
+}
 
 
 
@@ -428,14 +433,15 @@ form{
     }
   
     .contatos-container{
-        /*border: 1px solid black;*/
-        padding: 0;   
+        /*border: 1px solid white;*/
+        padding: 40px;   
         width: 100%; 
         justify-content: center;
         align-items: center;
-        margin: auto;
-        margin-left: 30px;
+        margin: auto;  
+        gap: 0;
     }
+
 
     .redes, .redes2{
         /*border: 1px solid white;*/
@@ -451,6 +457,10 @@ form{
         display: flex;
         flex-direction: column;
         gap: 80px;
+        /*border: 1px solid black;*/
+        margin-top: 50px;  
+        justify-content: center;
+        align-items: center; 
     }
 
     .formulario{
@@ -459,6 +469,14 @@ form{
 
     textarea{
         width: 100%;
+    }
+
+    .contatos-container h3{
+        margin-left: -130px;
+    }
+
+    #contatos h3{
+        font-size: 50px;
     }
 
 
