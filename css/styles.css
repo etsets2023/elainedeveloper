@@ -373,6 +373,8 @@ form{
 
 
 
+
+
 /****************Media Queries*******************/
 
 @media screen and (max-width: 992px) {  /*TABLET*/
@@ -448,6 +450,7 @@ form{
     .container{
         display: flex;
         flex-direction: column;
+        gap: 80px;
     }
 
     .formulario{
