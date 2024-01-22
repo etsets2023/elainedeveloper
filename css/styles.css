@@ -326,6 +326,11 @@ h3{
 
 .redes img{
     width: 65px;
+    border-radius: 14px;
+}
+
+.git{
+    /*border: 2px solid black;*/
 }
 
 .redes img:hover{
@@ -445,6 +450,9 @@ h4{
     color: white
 }
 
+.meu-contato{
+    width: 300px;
+}
 
 
 
@@ -582,10 +590,7 @@ h4{
         font-size: 18px;
     }   
 
-    .meu-contato{
-        /*border: 1px solid black;*/
-        width: 300px;
-    }
+    
 
     .apresentacao-nome{
         width: 300px;
