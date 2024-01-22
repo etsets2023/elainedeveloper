@@ -34,9 +34,7 @@ h1{
     background-image: url(../assets/papel5.jpg);
     background-size: cover;
     background-position: top;
-    padding-bottom: 200px;
-    margin-bottom: 0;
-    margin-top: 0;    
+       
 }
 
 .apresentacao-container{
@@ -85,15 +83,14 @@ h1{
     background-image: url(../assets/papel5.jpg);
     background-size: cover;
     background-position: top;
-    padding-bottom: 200px;  
-    margin-top: 0;  
+    padding-bottom: 100px;   
 }
 
 
 #tecnologias h2{
-    padding-top: 50px;
+    margin: 0;
     /*border: 1px solid black;*/
-}
+ }
 
 .tecnologias-container{
     /*border: 1px solid white;*/
@@ -183,8 +180,7 @@ h3{
     background-image: url(../assets/papel5.jpg);
     background-size: cover;
     background-position: top;
-    padding-bottom: 200px;
-    margin-bottom: 0;
+    padding-bottom: 100px;
 }
 
 #projetos h2{
@@ -216,6 +212,11 @@ h3{
     gap: 30px;
     background-image: linear-gradient(0deg, rgba(49,1,0,255), rgba(221,162,94,255)); 
     border: none;
+}
+
+.projeto-card:hover{
+    box-shadow: 5px 5px 5px white;
+    transition: all .2s;
 }
 
 #projetos img{
@@ -260,8 +261,7 @@ h3{
     background-image: url(../assets/papel5.jpg);
     background-size: cover;
     background-position: top;
-    padding-bottom: 200px;
-    margin-bottom: 0;
+    padding-bottom: 100px;
 }
 
 #contatos h2{
@@ -290,7 +290,13 @@ h3{
 }
 
 .redes img{
-    width: 50px;
+    width: 80px;
+}
+
+.redes img:hover{
+    box-shadow: 5px 5px 5px white;
+    transform: scale(1.2);
+    transition: all .3s;
 }
 
 .container{
@@ -316,10 +322,11 @@ h3{
     font-size: 16px;
     transition: all .3s ease-out;
     border-radius: none;
+    padding: 10px;
 }
 
 .label-float{
-    /*border: 2px solid black;*/
+    border: 2px solid black;
     position: relative;
     padding-top: 13px;
     margin-top: 5%;
@@ -327,11 +334,11 @@ h3{
 }
 
 .label-float input:focus{
-    border-bottom: 2px solid rgba(203,87,29,255);
+    border-bottom: 2px solid white;
 }
     
 .label-float label{
-    color: rgba(109,35,0,255);
+    color: rgba(55,26,16,255); 
     pointer-events: none;
     position: absolute;
     top: 0; 
@@ -344,7 +351,7 @@ h3{
 .label-float input:valid + label{ /* O que acontece com a label quando estou tem um conteúdo válido no input*/
     font-size: 13px;
     margin-top: 0;
-    color: rgba(203,87,29,255);
+    color: white;
 }
 
 .formulario-botao{
@@ -362,8 +369,8 @@ h3{
 }
 
 .formulario-botao:hover{
-    background-color:rgba(203,87,29,255);
-    border-color: rgba(203,87,29,255);
+    background-color:rgba(234,190,125,255);
+    border-color: rgba(234,190,125,255);
     color: #fff;  
 }
 
@@ -374,7 +381,7 @@ textarea{
 }
 
 textarea:focus{
-    border: 1px solid rgba(203,87,29,255);
+    border: 1px solid rgba(234,190,125,255);
    
 }
 
@@ -397,6 +404,9 @@ h4{
     font-size: 50px;
 }
 
+.email:hover{
+    color: white
+}
 
 
 
