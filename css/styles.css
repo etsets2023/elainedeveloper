@@ -95,6 +95,38 @@ h1{
     /*border: 1px solid black;*/
  }
 
+ .tecnologias-seta{
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .setas{
+    display: flex;
+    flex-direction: row;
+    gap: 500px;
+ }
+
+ .seta{
+    width: 80px;
+   
+    animation-name: setaBaixo;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+ }
+
+ @keyframes setaBaixo{
+    0%{
+        transform: translateY(0%)
+    }
+
+    100%{
+        transform: translateY(30%)
+    }
+ }
+
 .tecnologias-container{
     /*border: 1px solid white;*/
     width: 80%;
@@ -450,6 +482,10 @@ h4{
     #tecnologias{
         padding: 20px;
     }
+
+    .setas{
+        gap: 100px;
+     }
 
     #tecnologias h2, #projetos h2, #contatos h2{
         font-size: 80px;
