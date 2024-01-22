@@ -290,7 +290,7 @@ h3{
 }
 
 .redes img{
-    width: 80px;
+    width: 65px;
 }
 
 .redes img:hover{
@@ -321,12 +321,12 @@ h3{
     min-width: 180px;
     font-size: 16px;
     transition: all .3s ease-out;
-    border-radius: none;
+    border-radius: 8px;
     padding: 10px;
 }
 
 .label-float{
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     position: relative;
     padding-top: 13px;
     margin-top: 5%;
@@ -378,10 +378,12 @@ textarea{
     outline: none;
     padding: 20px;
     border: 1px solid rgba(55,26,16,255); 
+    background-color: rgba(234,190,125,255);
+    border-radius: 8px;
 }
 
 textarea:focus{
-    border: 1px solid rgba(234,190,125,255);
+    border: 1px solid white;
    
 }
 
@@ -472,7 +474,7 @@ h4{
         justify-content: center;
         align-items: center;
         margin: auto;  
-        gap: 0;
+        gap: 20px;
     }
 
     #contatos h2{
@@ -507,6 +509,7 @@ h4{
 
     textarea{
         width: 100%;
+
     }
 
     
@@ -517,6 +520,11 @@ h4{
     h3{
         font-size: 18px;
     }   
+
+    .meu-contato{
+        /*border: 1px solid black;*/
+        width: 300px;
+    }
    
 }
  
