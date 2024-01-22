@@ -79,6 +79,65 @@ h1{
     font-size: 24px;
 }
 
+.digitacao1{
+    border-right: 2px solid transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: blinkCursor .9s steps(40) 6 normal forwards, 
+    typing1 4s steps(40) 1s normal forwards;
+
+    animation: name duration timing-function delay iteration-count direction fill-mode;  
+}
+
+
+
+
+.typing-animation{
+    border-right: 2px solid transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: blinkCursor .9s steps(40) 5s infinite normal , 
+    typing 4s steps(40) 5s normal forwards;    
+}
+
+
+@keyframes blinkCursor {
+    25% {
+        border-right-color: transparent;
+    }
+
+    50% {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+
+    100% {
+        border-right-color: transparent;
+    }
+  
+}
+
+@keyframes typing1 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 200px;
+    }
+}
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 320px;
+    }
+}
+
+
 #tecnologias{
     /*border: 1px solid white;*/
     width: 100%; 
@@ -595,6 +654,26 @@ h4{
 
     .apresentacao-nome{
         width: 300px;
+    }
+
+
+    @keyframes typing1 {
+        from {
+            width: 0;
+        }
+        to {
+            width: 155px;
+        }
+    }
+    
+    
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 243px;
+        }
     }
    
 }

@@ -1,3 +1,6 @@
+const saudacao = 'document.querySelector("#saudacao");'
+console.log(saudacao);
+
 const btnHtml = document.querySelector('#html')
 const tecnologiaHtml = document.querySelector('#tecnologias-html')
 
@@ -9,6 +12,7 @@ const tecnologiaJs = document.querySelector('#tecnologias-js')
 
 const btnReact = document.querySelector('#react')
 const tecnologiaReact = document.querySelector('#tecnologias-react')
+
 
 
 btnHtml.addEventListener('click', () =>{
