@@ -30,7 +30,7 @@ h1{
 #apresentacao{
     /*border: 1px solid black;*/
     width: 100%;
-    padding:100px;
+    padding:50px;
     background-image: url(../assets/pergaminho-removebg-preview.png);
     background-size: cover;
     padding-bottom: 100px;
@@ -82,7 +82,7 @@ h1{
     background-image: url(../assets/pergaminho-removebg-preview.png);
     background-size: cover;
     padding-bottom: 100px;
-    padding: 100px;
+    padding: 50px;
 }
 
 .tecnologias-container{
@@ -169,7 +169,7 @@ h3{
 #projetos{
     /*border: 1px solid black;*/
     width: 100%; 
-    padding: 100px;
+    padding: 50px;
     background-image: url(../assets/pergaminho-removebg-preview.png);
     background-size: cover;
     padding-bottom: 100px;
@@ -242,7 +242,7 @@ h3{
 #contatos{
     /*border: 1px solid black;*/
     width: 100%; 
-    padding: 100px;
+    padding: 50px;
     padding-bottom: 50px;
     background-image: url(../assets/pergaminho-removebg-preview.png);
     background-size: cover;
