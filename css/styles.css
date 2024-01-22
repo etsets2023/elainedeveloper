@@ -434,6 +434,10 @@ h4{
         line-height: 30px;
     } 
 
+    #apresentacao{
+        padding: 20px;
+    }
+
     #apresentacao button {
         padding: 15px;
         width: 150px; 
@@ -441,6 +445,10 @@ h4{
 
     #apresentacao button a{
         font-size: 14px;
+    }
+
+    #tecnologias{
+        padding: 20px;
     }
 
     #tecnologias h2, #projetos h2, #contatos h2{
@@ -460,6 +468,10 @@ h4{
         font-size: 30px;
     }
 
+    #projetos{
+        padding: 20px;
+    }
+
     .projetos-container{
         width: 100%;
         flex-direction: column;  
@@ -468,6 +480,11 @@ h4{
     .projeto-card{
         flex-direction: column;
         width: 80%;  
+    }
+
+
+    #contatos{
+        padding: 20px;
     }
   
     .contatos-container{
