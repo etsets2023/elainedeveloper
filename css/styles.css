@@ -22,18 +22,21 @@ body{
 h1{
     font-family: "Ephesis", cursive;
     font-weight: 400;
-    font-size: 150px;
+    font-size: 120px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #apresentacao{
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     width: 100%;
     padding:70px;
     background-image: url(../assets/papel5.jpg);
     background-size: cover;
     background-position: top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
        
 }
 
@@ -482,11 +485,16 @@ h4{
     }
 
 
-    .redes, .redes2{
+    .redes{
         /*border: 1px solid white;*/
         width: 100%;
         padding: 0;
         justify-content: center;
+    }
+
+    .redes2{
+        justify-content: start;
+        margin-left: -40px;
     }
 
     #js img{
