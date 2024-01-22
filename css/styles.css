@@ -31,7 +31,7 @@ h1{
     /*border: 1px solid black;*/
     width: 100%;
     padding:50px;
-    background-image: url(../assets/pergaminho-removebg-preview.png);
+    background-image: url(../assets/pergaminho7-removebg-preview.png);
     background-size: cover;
     padding-bottom: 100px;
     padding-top: 100px;
@@ -79,10 +79,15 @@ h1{
 #tecnologias{
     /*border: 1px solid black;*/
     width: 100%; 
-    background-image: url(../assets/pergaminho-removebg-preview.png);
+    background-image: url(../assets/pergaminho7-removebg-preview.png);
     background-size: cover;
     padding-bottom: 100px;
-    padding: 50px;
+    padding: 50px;  
+}
+
+#tecnologias h2{
+    padding-top: 50px;
+    /*border: 1px solid black;*/
 }
 
 .tecnologias-container{
@@ -170,9 +175,13 @@ h3{
     /*border: 1px solid black;*/
     width: 100%; 
     padding: 50px;
-    background-image: url(../assets/pergaminho-removebg-preview.png);
+    background-image: url(../assets/pergaminho7-removebg-preview.png);
     background-size: cover;
     padding-bottom: 100px;
+}
+
+#projetos h2{
+    padding-top: 50px;
 }
 
 .projetos-container{
@@ -185,9 +194,7 @@ h3{
     align-items: center;
     gap: 40px;   
     flex-wrap: wrap;
-    margin-top: 50px;
-  
-   
+    margin-top: 50px; 
 }
 
 .projeto-card{
@@ -244,8 +251,12 @@ h3{
     width: 100%; 
     padding: 50px;
     padding-bottom: 50px;
-    background-image: url(../assets/pergaminho-removebg-preview.png);
+    background-image: url(../assets/pergaminho7-removebg-preview.png);
     background-size: cover;
+}
+
+#contatos h2{
+    padding-top: 50px;
 }
 
 .contatos-container{
@@ -485,7 +496,47 @@ h4{
         font-size: 18px;
     }
 
+    #apresentacao button {
+        padding: 20px;
+        background-color: rgba(49,1,0,255);
+        border-radius: 8px;
+        border: none;
+        width: 40%;
+        align-self: center;
+        margin-top: -20px;
+    }
 
+    #apresentacao{
+        padding-top: 10px;
+    }
+
+    #tecnologias{
+        /*border: 1px solid black;*/
+        width: 100%; 
+        background-image: url(../assets/pergaminho7-removebg-preview.png);
+        background-size: cover;
+        padding-bottom: 100px;
+        padding: 50px;  
+    }
+    
+    #tecnologias h2{
+        margin-bottom: -50px;
+        padding-top: 0px;
+        /*border: 1px solid black;*/
+    }
+    
+    .tecnologias-container{
+        /*border: 1px solid white;*/
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;   
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
 }
  
  @media screen and (min-width: 993px) {  /*DESKTOP*/
