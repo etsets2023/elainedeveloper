@@ -375,6 +375,7 @@ h3{
 
 .label-float input:focus{
     border-bottom: 2px solid white;
+    transition: all .6s ease-out;
 }
     
 .label-float label{
