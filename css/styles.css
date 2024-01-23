@@ -42,8 +42,7 @@ h1{
     align-items: center;
     position: fixed;
     background: rgba(49,1,0,255);
-    padding-inline: 200px;
-    
+    padding-inline: 200px; 
 }
 
 .logo img{
@@ -834,6 +833,7 @@ h4{
    
     .nav{
         padding-inline: 20px;
+        width: 50%;
     }
 
     .nav-list{
