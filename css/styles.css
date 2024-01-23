@@ -617,7 +617,7 @@ h4{
     position: fixed;
     top: 0;
     left: 0;
-    width: 80vw;
+    width: 100vw;
     height: 100vh;
     background: rgba(49,1,0,255);
     clip-path: circle(100px at 90% -15%);/* PORCENTAGEM EIXO X E EIXO Y*/
@@ -834,8 +834,15 @@ h4{
    
     .nav{
         padding-inline: 20px;
-        
     }
+
+    .nav-list{
+        display: flex;
+        gap:20px;
+        list-style: none;
+        padding-bottom: 20px;  
+    } 
+    
 }
  
  @media screen and (min-width: 993px) {  /*DESKTOP*/
