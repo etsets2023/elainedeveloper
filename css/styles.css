@@ -587,7 +587,7 @@ h4{
 
 /****************Media Queries*******************/
 
-@media screen and (max-width: 750px) {  /*TABLET*/ /*celular (max-width: 750px) 992 tablet*/
+@media screen and (max-width: 992px) {  /*TABLET*/ /*celular (max-width: 750px) 992 tablet*/
     body{
         font-size: 18px;
     }
@@ -831,22 +831,6 @@ h4{
 
 @media screen and (max-width: 992px) {  /*TABLET*/ 
 
-    body{
-        margin: auto;
-    }
-   
-    .nav{
-        padding-inline: 20px;
-        width: 50%;
-    }
-
-    .nav-list{
-        display: flex;
-        gap:20px;
-        list-style: none;
-        padding-bottom: 20px;  
-    } 
-    
 }
  
  @media screen and (min-width: 993px) {  /*DESKTOP*/
