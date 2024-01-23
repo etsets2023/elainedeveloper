@@ -829,8 +829,16 @@ h4{
     }
    
 }
+
+@media screen and (max-width: 992px) {  /*TABLET*/ 
+   
+    .nav{
+        padding-inline: 20px;
+        
+    }
+}
  
  @media screen and (min-width: 993px) {  /*DESKTOP*/
  
-
+   
 }
